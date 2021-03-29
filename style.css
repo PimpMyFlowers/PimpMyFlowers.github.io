@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Righteous&family=Train+One&display=swap');
+
+body{ 
+    font-family: 'Righteous', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30;
+    font-size: 2em;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* ******************************************************** NAVBAR****************************************************** */
+
+nav {
+    overflow: hidden;
+    background-color: rgb(250, 169, 236);
+    position: fixed;
+    width: 100%;
+    opacity: 0.8;
+}
+header li{
+    float: right;
+    font-size: 1.2em;
+}
+header li a{  
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 18px 16px;
+}
+header li a:hover{
+    opacity: 0.7;
+    transition: 0.5 ease-in-out;
+    transform: scale(1.05);
+}
+#logo{
+    font-family: 'Train one' , cursive;
+    font-weight: bold;
+    float: left;
+}
+
+/* **************************************** IMAGE PRINCIPALE******************************** */
+
+
+#imagePrincipal {
+    padding: 60px;
+    background: url(media/fc2.jpg) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 799px;
+}
+
+
+
+h1{
+    font-family: 'Train one', cursive;
+    text-align: center;
+    color: white;
+    font-size: 6em;
+    margin-top: 40px;
+    text-shadow: 1px 3px 2px black;
+    
+}
+#premierTrait{
+    height: 1px;
+    width: 25%;
+    margin: -3px auto;
+    background-color: antiquewhite;
+    box-shadow: 1px 3px 2px black;
+    
+}
+h3{
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    text-shadow: 1px 3px 2px black;
+}
+#imagePrincipal p{
+    font-size: 2em;
+    margin: 2px 10% 2px 10%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* ************************************PRESENTATION************************************ */
+
+#presentation h2 {
+    text-align: left;
+    font-size: 3em;
+    font-family: 'orbitron', cursive;
+    color: rgb(250, 169, 236);
+    padding: 18px 16px;
+    margin-bottom: 5px;
+    text-shadow: 1px 3px 2px black;
+}
+
+#presentation p{
+    font-size: 1.5em;
+    margin: 2px 13% 2px 3%;
+    text-align: left;
+    /* color: #FFFFFF; */
+    color: black;
+    text-shadow: 0 0 10px rgb(250, 169, 236);
+    /* background: rgb(250, 169, 236); */
+}
+
+/* **************************************************DIFFERENT MODELE******************************************** */
+
+#diffmod h2{
+    text-align: center;
+    font-family: 'Orbitron', cursive;
+    font-size: 3em;
+    text-shadow: 1px 3px 2px  black;
+    color: rgb(250, 169, 236);
+    text-transform: uppercase;
+}
+
+#modele{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 10%;
+}
+
+.imageModeleSerre h4{
+
+    text-align: center;
+    font-family: 'Orbitron', cursive;
+    font-size: 1.5em;
+    text-shadow: 1px 3px 2px  black;
+    color: rgb(250, 169, 236);
+    text-transform: uppercase;
+    margin: 15px;
+}
+
+.imageModeleSerre img{
+    border-radius: 20px;
+    box-shadow: 5px 4px 5px 4px rgba(0, 0, 0, 0.83);
+}
+
+.imageModeleSerre img:hover{
+    opacity: 0.7;
+    transform: scale(1.05);
+    transition: 0.4s ease-in;
+}
+
+/* ****************************FOOTER*********************************** */
+
+#imageFin{
+    padding: 60px;
+    background: url(media/fc2.jpg) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 550px;
+    box-shadow: 1px 3px 2px black;
+}
+
+footer{
+    color: white;
+    padding: 20px 0px 10px;
+    text-align: center;
+}
+form{
+    margin: 0 auto;
+    max-width: 900px;
+}
+input, textarea, button{
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1.2em;
+    font-family: 'Righteous', cursive;
+    border-radius: 8px;
+}
+textarea{
+    height: 120px;
+}
+button{
+    font-size: 1.5em;
+    background-color: white;
+}
+button:hover{
+    background-color: rgb(250, 169, 236);
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+#deuxiemeTrait{
+    height: 1px;
+    width: 75%;
+    background-color: white;
+    margin: 60px auto;
+
+}
+#copyrightEtIcons{
+    display: flex;
+    margin: 20px;
+    padding: 0 10%;
+}
+#copyright{
+    width: 50%;
+    text-align: left;
+    color: white;
+}
+#icons{
+    width: 50%;
+    text-align: right;
+}
+#icons a{
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 1.3em;
+    color: white;
+}
